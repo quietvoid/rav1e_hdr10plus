@@ -1,0 +1,12 @@
+[package]
+name = "rav1e_hdr10plus"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rav1e = { git = "https://github.com/xiph/rav1e.git" }
+ivf = "0.1.1"
+hdr10plus = { version = "1.1.1", features = ["json"] }
+anyhow = "1.0.62"
